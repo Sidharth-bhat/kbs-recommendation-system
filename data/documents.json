@@ -1,0 +1,78 @@
+[
+  {
+    "id": "KB001",
+    "title": "Password Reset Guide",
+    "content": "To reset your password, navigate to the login page and click 'Forgot Password'. Enter your company email address and you will receive a password reset link within 5 minutes. The link expires after 24 hours. For security reasons, your new password must be at least 12 characters long and include uppercase, lowercase, numbers, and special characters. If you don't receive the email, check your spam folder or contact IT support at ext. 5500."
+  },
+  {
+    "id": "KB002",
+    "title": "New Employee Onboarding Process",
+    "content": "Welcome to the company! Your onboarding process includes several steps: First, complete all HR paperwork in the employee portal within 48 hours. Second, attend the mandatory orientation session on your first Monday. Third, meet with your manager to discuss your role and responsibilities. You'll receive your laptop, access badge, and company email on day one. IT will set up your accounts for Slack, email, and internal systems. Please review the employee handbook and sign the acknowledgment form. Your buddy will help you navigate the first two weeks."
+  },
+  {
+    "id": "KB003",
+    "title": "VPN Access Instructions",
+    "content": "To access company resources remotely, you need to connect via VPN. Download the Cisco AnyConnect client from the IT portal. Install the application and use vpn.company.com as the server address. Login with your company credentials (same as your email). Once connected, you'll have access to internal systems, file shares, and databases. The VPN automatically disconnects after 8 hours of inactivity for security. If you experience connection issues, try restarting the client or contact IT support. VPN is required for all remote work and accessing sensitive data."
+  },
+  {
+    "id": "KB004",
+    "title": "Data Backup and Recovery Policy",
+    "content": "All company data must be backed up regularly to prevent loss. Employee workstations are automatically backed up nightly to our secure cloud storage. Critical project files should be stored on the shared network drive, which has real-time replication. Local files on your computer are your responsibility - use the backup tool in the IT portal. Database backups run every 6 hours with 30-day retention. To restore files, submit a ticket to IT with the file path and approximate date. Recovery typically takes 2-4 hours. Never store sensitive data on personal devices or unauthorized cloud services."
+  },
+  {
+    "id": "KB005",
+    "title": "Multi-Factor Authentication (MFA) Setup and Troubleshooting",
+    "content": "MFA is required for all company accounts to enhance security. To set up MFA, log into the employee portal and navigate to Security Settings. Choose your preferred method: authenticator app (recommended), SMS, or hardware token. For authenticator apps, we recommend Microsoft Authenticator or Google Authenticator. Scan the QR code and enter the 6-digit code to verify. Save your backup codes in a secure location. If you lose access to your MFA device, contact IT immediately with your employee ID. Common issues: time sync problems (check device clock), app not generating codes (reinstall app), or SMS delays (try authenticator app instead)."
+  },
+  {
+    "id": "KB006",
+    "title": "Internal Ticketing System Guide",
+    "content": "Use our ticketing system for all IT support requests, facilities issues, and HR inquiries. Access the portal at support.company.com with your company credentials. Click 'New Ticket' and select the appropriate category: IT Support, Facilities, HR, or Finance. Provide a clear description of your issue and any relevant screenshots. Priority levels: Critical (system down), High (major impact), Medium (inconvenience), Low (question). You'll receive email updates on ticket status. Average response time is 2 hours for high priority and 24 hours for medium/low. Check the knowledge base before submitting - many common issues have self-service solutions. For urgent issues outside business hours, call the emergency hotline."
+  },
+
+  {
+  "id": "KB007",
+  "title": "Email Setup on Mobile Devices",
+  "content": "To configure your corporate email on mobile, download the Outlook app from the App Store or Google Play. Sign in using your company email and password. Enable mobile device management (MDM) when prompted. This enforces security policies such as screen lock and remote wipe. If authentication fails, ensure MFA is configured and device time is accurate. For lost or stolen devices, immediately report to IT so the device can be removed from the approved device list."
+  },
+  {
+    "id": "KB008",
+    "title": "Git Repository Access and Workflow",
+    "content": "All engineering teams use Git-based workflows. Access is granted through the internal developer portal after manager approval. Clone repositories using SSH keys; HTTPS is disabled for security. The standard workflow is: fork the main repo, create a feature branch, commit frequently, and open a pull request with proper documentation. All PRs require at least one reviewer and CI checks must pass before merging. Production branches are protected. For merge conflicts, rebase instead of merging unless otherwise specified."
+  },
+  {
+    "id": "KB009",
+    "title": "Remote Work Policy",
+    "content": "Employees are allowed to work remotely up to 3 days per week with manager approval. VPN must be active when accessing confidential systems. Video must be enabled for all client meetings unless circumstances prevent it. Employees are responsible for secure internet connections and cannot work from public WiFi unless using a company-approved secure tunnel. Working hours remain unchanged and availability on Slack or Teams is mandatory during core hours."
+  },
+  {
+    "id": "KB010",
+    "title": "Incident Reporting Procedure",
+    "content": "Any system outage, security anomaly, or critical failure must be reported within 15 minutes. Create an incident ticket under the 'Critical' category and notify the on-call engineer via Slack. Include steps to reproduce, timestamps, logs, and impact assessment. The incident manager will coordinate response efforts. After resolution, a post-incident review (PIR) must be completed within 48 hours, documenting root cause and action items to prevent recurrence."
+  },
+  {
+    "id": "KB011",
+    "title": "Secure File Sharing Guidelines",
+    "content": "Confidential files must only be shared through approved platforms such as OneDrive or the secure internal file transfer portal. Sharing via personal email, WhatsApp, or external cloud drives is strictly prohibited. When sending sensitive files, apply encryption or password protection. Always revoke access after a project ends. For large files above 2GB, use the managed file transfer service accessible from the IT portal."
+  },
+  {
+    "id": "KB012",
+    "title": "Slack Usage and Communication Standards",
+    "content": "Slack is the primary internal communication tool. Use public channels instead of private messages whenever possible for transparency. Prefix channel names with the correct category: #team-, #project-, #announcement-, or #help-. Avoid tagging @channel unless necessary. Keep discussions professional and avoid sharing confidential assets. All decision-making must be documented in relevant channels or tickets."
+  },
+  {
+    "id": "KB013",
+    "title": "Laptop Security and Maintenance",
+    "content": "All company laptops must have full disk encryption enabled. Keep your operating system and antivirus updated regularly. Install only approved software from the internal software portal. Do not disable firewall settings. Screens must be locked when away from workstation. For suspicious activity such as unexpected restarts, unauthorized prompts, or malware warnings, immediately contact IT security. Annual device audits are mandatory and scheduled by IT."
+  },
+  {
+    "id": "KB014",
+    "title": "Database Access Request Procedure",
+    "content": "Access to production and staging databases requires explicit approval from the engineering manager and the data governance team. Begin by filling out the access request form stating purpose, duration, and required permissions. All credentials are temporary and expire after 14 days unless renewed. Direct queries on production databases are discouraged; use read replicas when available. Query logs are monitored for compliance. Sharing credentials is strictly prohibited."
+  },
+  {
+    "id": "KB015",
+    "title": "Monthly Patch and Update Schedule",
+    "content": "The IT department deploys security patches and software updates on the first Friday of every month. Employees should save work and keep devices connected to power during update windows. Servers and critical systems undergo staggered patching to avoid downtime. If any issues arise after updates, such as application errors or lost configurations, report them immediately through the ticketing system under the 'Post-Update Issue' category."
+  }
+]
